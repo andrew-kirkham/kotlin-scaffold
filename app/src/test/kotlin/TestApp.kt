@@ -1,6 +1,5 @@
 import org.junit.Test
 
-
 class TestApp {
 
     @Test
