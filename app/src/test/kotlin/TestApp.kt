@@ -1,5 +1,3 @@
-package jvm.testing
-
 import org.junit.Test
 
 

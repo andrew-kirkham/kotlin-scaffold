@@ -2,7 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     java
-    kotlin("jvm") version "1.5.10"
+    kotlin("jvm") version "1.8.0"
 }
 
 repositories {
@@ -21,5 +21,5 @@ dependencies {
 }
 
 tasks.withType<KotlinCompile>().configureEach {
-    kotlinOptions.jvmTarget = "12"
+    kotlinOptions.jvmTarget = "19"
 }
